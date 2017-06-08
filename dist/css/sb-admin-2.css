@@ -315,6 +315,7 @@ table.dataTable thead .sorting:after {
   clear: both;
 }
 .timeline > li > .timeline-panel {
+  background-color: white;
   float: left;
   position: relative;
   width: 46%;

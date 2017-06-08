@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>IPMEDT4</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- MetisMenu CSS -->
+	<link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+	<!-- Morris Charts CSS -->
+	<link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">Life Technology</a>
+		</div>
+		<!-- /.navbar-header -->
+
+		<ul class="nav navbar-top-links navbar-right">
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+				</a>
+				<ul class="dropdown-menu dropdown-messages">
+					<li>
+						<a href="#">
+							<div>
+								<strong>John Smith</strong>
+								<span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+							</div>
+							<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="#">
+							<div>
+								<strong>John Smith</strong>
+								<span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+							</div>
+							<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="#">
+							<div>
+								<strong>John Smith</strong>
+								<span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+							</div>
+							<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a class="text-center" href="#">
+							<strong>Read All Messages</strong>
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</li>
+				</ul>
+				<!-- /.dropdown-messages -->
+			</li>
+			<!-- /.dropdown -->
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+				</a>
+				<ul class="dropdown-menu dropdown-tasks">
+					<li>
+						<a href="#">
+							<div>
+								<p>
+									<strong>Task 1</strong>
+									<span class="pull-right text-muted">40% Complete</span>
+								</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+										 aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+										<span class="sr-only">40% Complete (success)</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="#">
+							<div>
+								<p>
+									<strong>Task 2</strong>
+									<span class="pull-right text-muted">20% Complete</span>
+								</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
+										 aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+										<span class="sr-only">20% Complete</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="#">
+							<div>
+								<p>
+									<strong>Task 3</strong>
+									<span class="pull-right text-muted">60% Complete</span>
+								</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+										 aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+										<span class="sr-only">60% Complete (warning)</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="#">
+							<div>
+								<p>
+									<strong>Task 4</strong>
+									<span class="pull-right text-muted">80% Complete</span>
+								</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
+										 aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+										<span class="sr-only">80% Complete (danger)</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a class="text-center" href="#">
+							<strong>See All Tasks</strong>
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</li>
+				</ul>
+				<!-- /.dropdown-tasks -->
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="login.html" class="button button-default">Inloggen</a>
+					</li>
+					<li>
+						<a href="logoff" class="button button-default">Uitloggen</a>
+					</li>
+				</ul>
+			</li>
+			<!-- /.dropdown -->
+		</ul>
+		<!-- /.navbar-top-links -->
+
+
+	</nav>
+
+	<div class="container-fluid" style="background: white">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">Overzicht</h1>
+			</div>
+			<!-- /.col-lg-12 -->
+			<div class="col-lg-8">
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<i class="fa fa-clock-o fa-fw"></i> Tijdlijn
+						</div>
+						<!-- /.panel-heading -->
+						<div class="panel-body">
+							<ul class="timeline">
+								<li>
+									<!--deze stap in de timeline is afgerond-->
+									<div class="timeline-badge success"><i class="fa fa-check"></i>
+									</div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">De huisarts</h4>
+											<p>
+												<small class="text-muted"><i class="fa fa-clock-o"></i> ~ 1 tot 2 uur</small>
+											</p>
+										</div>
+										<div class="timeline-body">
+											<p>
+												Je denkt dat je misschien iets gebroken hebt, maar je weet het nog niet zeker. Op dit moment is de beste optie om langs de huisarts te gaan.
+											</p>
+										</div>
+										<div>
+											<br>
+											<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#huisarts">Lees meer</button>
+										</div>
+									</div>
+									<!-- pop-up 1 met extra informatie over de huisarts -->
+									<div id="huisarts" class="modal fade" role="dialog">
+										<div class="modal-dialog">
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<!-- Kruis butten sluiten pop-up -->
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+													<h3 class="modal-title">De huisarts</h3>
+												</div>
+												<div class="modal-body">
+													<p>De huisarts zal vragen wat er is gebeurd en zal je daarna controleren op een eventuele
+														botbreuk. Mocht de huisarts concluderen dat je een botbreuk hebt, dan wordt je doorverwezen
+														naar het ziekenhuis waar je een röntgenfoto krijgt bij de afdeling radiologie.
+													</p>
+												</div>
+												<div class="modal-footer">
+													<!-- sluit butten sluiten pop-up -->
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge"><i><img width="25px" height="25px" src="assats/img/huisarts.svg"/></i></div>
+									<!--<div class="timeline-badge warning"><i class="fa fa-credit-card"></i></div>-->
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">De eerste hulp</h4>
+										</div>
+										<div class="timeline-body">
+											<p>
+												Deze stap is voor patiënten die niet eerst naar de huisarts zijn geweest, maar meteen naar de eerste hulp.
+											</p>
+											<br>
+											<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#eersteHulp">Lees meer</button>
+										</div>
+									</div>
+									<!-- Modal -->
+									<div id="eersteHulp" class="modal fade" role="dialog">
+										<div class="modal-dialog">
+
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+													<h3 class="modal-title">De eerste hulp</h3>
+												</div>
+												<div class="modal-body">
+													<p>Bij de eerste hulp meld jij je aan bij het loket en vervolgens neem je plaats in de
+														wachtkamer. Als je geroepen wordt ontmoet je een specialist op het gebied van botbreuken.
+														Deze zal je vragen stellen van hoe het gebeurd is en zal daarbij ook de bijbehorende
+														controles uitvoeren. Als de specialist concludeert dat er een botbreuk is, word je
+														doorverwezen naar de afdeling radiologie. Hier worden röntgenfoto’s gemaakt.</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline-badge warning"><i><img width="25px" height="25px" src="assats/img/apotheek.svg"/></i></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Röntgenfoto</h4>
+										</div>
+										<div class="timeline-body">
+											<p>
+												Het maken van een röntgenfoto gebeurt op de afdeling radiologie. Als je aan de beurt bent, wordt je verwezen naar een speciale kamer. Hierin begeleidt de radioloog jouw door het proces.
+											</p>
+											<br>
+											<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#foto">Lees meer</button>
+										</div>
+										<!-- Modal -->
+										<div id="foto" class="modal fade" role="dialog">
+											<div class="modal-dialog">
+												<!-- Modal content-->
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal">&times;</button>
+														<h3 class="modal-title">Röntgenfoto</h3>
+													</div>
+													<div class="modal-body">
+														<p>Je wordt verzocht om op een tafel te gaan liggen waarbij er onder het gebroken been een plaat
+															wordt neergelegd. Als de foto wordt gemaakt dan dien je zo stil mogelijk te blijven liggen.
+															Dit bevorderd de kwaliteit van de foto, zodat de radioloog een beter oordeel kan vellen.
+															Na het maken van de röntgenfoto wordt je verzocht om weer plaats te nemen in de wachtkamer.
+															Tijdens het wachten wordt de röntgenfoto ontwikkeld en wordt de foto door de specialist
+															bekeken.
+															Nadat de specialist de röntgenfoto heeft bekeken, wordt je meegenomen om de resultaten te
+															bespreken. Uit dit gesprek komt voor hoe de botbreuk eruit ziet. Als de botbreuk stabiel
+															gehouden kan worden met gips, dan wordt je verwezen naar de gipsafdeling. Soms staat de
+															botbreuk verkeerd en moet deze goed gezet worden. Hierbij worden eerst de botten rechtgezet
+															met de hand (=reponeren), om daarna alsnog naar de gipsafdeling verwezen te worden.
+															Blijkt uit de foto dat de botbreuk instabiel is of dat er botten zijn verplaatst, dan komt
+															er eerst een operatie aan te pas.
+														</p>
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Gipsen</h4>
+										</div>
+										<div class="timeline-body">
+											<p>
+												Je bent nu aangekomen bij de gipsafdeling en krijgt nu voor het eerst gips.
+											</p>
+											<br>
+											<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#gipsen">Lees meer</button>
+										</div>
+									</div>
+									<!-- Modal -->
+									<div id="gipsen" class="modal fade" role="dialog">
+										<div class="modal-dialog">
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+													<h3 class="modal-title">Gipsen</h3>
+												</div>
+												<div class="modal-body">
+													<p>Bij de meeste breuken wordt er een kalk gipsspalk gegeven die je 1 a 2 weken moet hebben. De
+														spalk zorgt ervoor dat het been ruimte heeft mocht hij gaan opzwellen. Bij een enkelfractuur
+														krijg je onderbeengips en bij een onderbeenfractuur krijg je bovenbeengips. Met dit gips mag
+														niet gelopen worden. Het gips proces ziet er als volgt uit:
+													<ul>
+														<li>Je krijgt eerst een kous aan.</li>
+														<li>Er worden watten rondom je been geplaatst beginnend bij de voet.</li>
+														<li>De spalk wordt aangebracht en egaal over de been verdeeld</li>
+													</ul>
+													<p>
+														Na 1 of 2 weken wordt het gips vervangen door circulair kunststof gips. Dit proces is
+														hetzelfde als de kalk gipsspalk alleen is de spalk vervangen door kunststof gips. Dit kan
+														loopgips zijn, afhankelijk van de fractuur en stabiliteit. Loopgips wordt niet geplaatst als
+														het gaat om een onderbeenfractuur. In de meeste gevallen zal je 6 weken dit gips moeten
+														dragen.
+													</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- /.panel-body -->
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" href="#collapse1"><i class="fa fa-clock-o fa-fw">
+								</i>
+									Tijdlijn
+									<i class="fa fa-caret-down"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ul class="timeline">
+									<li>
+										<!--deze stap in de timeline is afgerond-->
+										<div class="timeline-badge success"><i class="fa fa-check"></i>
+										</div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h4 class="timeline-title">De huisarts</h4>
+												<p>
+													<small class="text-muted"><i class="fa fa-clock-o"></i> ~ 1 tot 2 uur</small>
+												</p>
+											</div>
+											<div class="timeline-body">
+												<p>
+													Je denkt dat je misschien iets gebroken hebt, maar je weet het nog niet zeker. Op dit moment is de beste optie om langs de huisarts te gaan.
+												</p>
+											</div>
+											<div>
+												<br>
+												<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#huisarts">Lees meer</button>
+											</div>
+										</div>
+										<!-- pop-up 1 met extra informatie over de huisarts -->
+										<div id="huisarts" class="modal fade" role="dialog">
+											<div class="modal-dialog">
+												<!-- Modal content-->
+												<div class="modal-content">
+													<div class="modal-header">
+														<!-- Kruis butten sluiten pop-up -->
+														<button type="button" class="close" data-dismiss="modal">&times;</button>
+														<h3 class="modal-title">De huisarts</h3>
+													</div>
+													<div class="modal-body">
+														<p>De huisarts zal vragen wat er is gebeurd en zal je daarna controleren op een eventuele
+															botbreuk. Mocht de huisarts concluderen dat je een botbreuk hebt, dan wordt je doorverwezen
+															naar het ziekenhuis waar je een röntgenfoto krijgt bij de afdeling radiologie.
+														</p>
+													</div>
+													<div class="modal-footer">
+														<!-- sluit butten sluiten pop-up -->
+														<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="timeline-inverted">
+										<div class="timeline-badge"><i><img width="25px" height="25px" src="assats/img/huisarts.svg"/></i></div>
+										<!--<div class="timeline-badge warning"><i class="fa fa-credit-card"></i></div>-->
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h4 class="timeline-title">De eerste hulp</h4>
+											</div>
+											<div class="timeline-body">
+												<p>
+													Deze stap is voor patiënten die niet eerst naar de huisarts zijn geweest, maar meteen naar de eerste hulp.
+												</p>
+												<br>
+												<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#eersteHulp">Lees meer</button>
+											</div>
+										</div>
+										<!-- Modal -->
+										<div id="eersteHulp" class="modal fade" role="dialog">
+											<div class="modal-dialog">
+
+												<!-- Modal content-->
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal">&times;</button>
+														<h3 class="modal-title">De eerste hulp</h3>
+													</div>
+													<div class="modal-body">
+														<p>Bij de eerste hulp meld jij je aan bij het loket en vervolgens neem je plaats in de
+															wachtkamer. Als je geroepen wordt ontmoet je een specialist op het gebied van botbreuken.
+															Deze zal je vragen stellen van hoe het gebeurd is en zal daarbij ook de bijbehorende
+															controles uitvoeren. Als de specialist concludeert dat er een botbreuk is, word je
+															doorverwezen naar de afdeling radiologie. Hier worden röntgenfoto’s gemaakt.</p>
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="timeline-badge warning"><i><img width="25px" height="25px" src="assats/img/apotheek.svg"/></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h4 class="timeline-title">Röntgenfoto</h4>
+											</div>
+											<div class="timeline-body">
+												<p>
+													Het maken van een röntgenfoto gebeurt op de afdeling radiologie. Als je aan de beurt bent, wordt je verwezen naar een speciale kamer. Hierin begeleidt de radioloog jouw door het proces.
+												</p>
+												<br>
+												<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#foto">Lees meer</button>
+											</div>
+											<!-- Modal -->
+											<div id="foto" class="modal fade" role="dialog">
+												<div class="modal-dialog">
+													<!-- Modal content-->
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+															<h3 class="modal-title">Röntgenfoto</h3>
+														</div>
+														<div class="modal-body">
+															<p>Je wordt verzocht om op een tafel te gaan liggen waarbij er onder het gebroken been een plaat
+																wordt neergelegd. Als de foto wordt gemaakt dan dien je zo stil mogelijk te blijven liggen.
+																Dit bevorderd de kwaliteit van de foto, zodat de radioloog een beter oordeel kan vellen.
+																Na het maken van de röntgenfoto wordt je verzocht om weer plaats te nemen in de wachtkamer.
+																Tijdens het wachten wordt de röntgenfoto ontwikkeld en wordt de foto door de specialist
+																bekeken.
+																Nadat de specialist de röntgenfoto heeft bekeken, wordt je meegenomen om de resultaten te
+																bespreken. Uit dit gesprek komt voor hoe de botbreuk eruit ziet. Als de botbreuk stabiel
+																gehouden kan worden met gips, dan wordt je verwezen naar de gipsafdeling. Soms staat de
+																botbreuk verkeerd en moet deze goed gezet worden. Hierbij worden eerst de botten rechtgezet
+																met de hand (=reponeren), om daarna alsnog naar de gipsafdeling verwezen te worden.
+																Blijkt uit de foto dat de botbreuk instabiel is of dat er botten zijn verplaatst, dan komt
+																er eerst een operatie aan te pas.
+															</p>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="timeline-inverted">
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h4 class="timeline-title">Gipsen</h4>
+											</div>
+											<div class="timeline-body">
+												<p>
+													Je bent nu aangekomen bij de gipsafdeling en krijgt nu voor het eerst gips.
+												</p>
+												<br>
+												<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#gipsen">Lees meer</button>
+											</div>
+										</div>
+										<!-- Modal -->
+										<div id="gipsen" class="modal fade" role="dialog">
+											<div class="modal-dialog">
+												<!-- Modal content-->
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal">&times;</button>
+														<h3 class="modal-title">Gipsen</h3>
+													</div>
+													<div class="modal-body">
+														<p>Bij de meeste breuken wordt er een kalk gipsspalk gegeven die je 1 a 2 weken moet hebben. De
+															spalk zorgt ervoor dat het been ruimte heeft mocht hij gaan opzwellen. Bij een enkelfractuur
+															krijg je onderbeengips en bij een onderbeenfractuur krijg je bovenbeengips. Met dit gips mag
+															niet gelopen worden. Het gips proces ziet er als volgt uit:
+														<ul>
+															<li>Je krijgt eerst een kous aan.</li>
+															<li>Er worden watten rondom je been geplaatst beginnend bij de voet.</li>
+															<li>De spalk wordt aangebracht en egaal over de been verdeeld</li>
+														</ul>
+														<p>
+															Na 1 of 2 weken wordt het gips vervangen door circulair kunststof gips. Dit proces is
+															hetzelfde als de kalk gipsspalk alleen is de spalk vervangen door kunststof gips. Dit kan
+															loopgips zijn, afhankelijk van de fractuur en stabiliteit. Loopgips wordt niet geplaatst als
+															het gaat om een onderbeenfractuur. In de meeste gevallen zal je 6 weken dit gips moeten
+															dragen.
+														</p>
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/.col-lg-18 tijdlijn-->
+			<div class="col-lg-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<i class="fa fa-star"></i> Uitgevoerd onderzoek
+					</div>
+					<div class="panel-body">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h2 class="panel-title">Doktersbezoek</h2>
+							</div>
+							<div class="panel-body">
+								<p>
+									<small class="text-muted">
+										<i class="fa fa-clock-o"></i> 12 mei 2017
+									</small>
+								</p>
+								<p>
+									Tijdens het bezoek van --naam van de patient-- is het volgende onderzoek uitgevoerd. de
+									patient gaf aan last te hebben van zijn been nadat hij van de trap was gevallen.
+									De patent kon niet staan op zijn been en het bij aanraking had hij
+									veel pijn. Mijn advische is om een rontgenfoto te laten maken.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/.col-lg-4 uitgevoerd onderzoek-->
+
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+<!-- Morris Charts JavaScript -->
+<script src="../vendor/raphael/raphael.min.js"></script>
+<script src="../vendor/morrisjs/morris.min.js"></script>
+<script src="../data/morris-data.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>

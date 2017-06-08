@@ -1,0 +1,23 @@
+.info-img
+{
+  height: 20vh;
+  display: block;
+  margin: auto;
+}
+
+.info-text
+{
+  text-align: left;
+}
+
+.info-titel
+{
+  text-align: center;
+}
+
+.info
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e8e8e8;
+}

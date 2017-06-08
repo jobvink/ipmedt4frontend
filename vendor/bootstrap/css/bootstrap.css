@@ -9,11 +9,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
-  background-image: url("assats/img/blue.jpg");
-  background-color: red;
-  margin: 0;
-}
+
 article,
 aside,
 details,
@@ -1088,7 +1084,10 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #f8f8f8;
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
 }
 input,
 button,

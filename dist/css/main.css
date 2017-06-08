@@ -5,8 +5,6 @@
   margin: auto;
 }
 
-
-
 .info-text
 {
   text-align: left;
@@ -24,9 +22,6 @@
   background-color: #e8e8e8;
 }
 
-body{
-   position: relative;
-}
 .panel-body{
 	background-color: #f8f8f8 !important;
 }
@@ -37,7 +32,6 @@ body{
   text-align: center;
   padding-top: 20px;
   padding-bottom: 15px;
-  bottom: 0;
 }
 
 .copyright{
@@ -45,4 +39,6 @@ body{
   color: white;
   line-height: 4px;
 }
+
+
 

@@ -26,6 +26,9 @@
 	<!-- Custom Fonts -->
 	<link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+	<!--main css custom style-->
+	<link href="../dist/css/main.css" rel="stylesheet">
+
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -205,11 +208,11 @@
 
 	<div class="container-fluid" style="background: white">
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-8 col-lg-offset-2">
 				<h1 class="page-header">Overzicht</h1>
 			</div>
 			<!-- /.col-lg-12 -->
-			<div class="col-lg-8">
+			<div class="col-lg-8 col-lg-offset-2">
 				<div class="col-lg-12">
 					<div class="panel panel-default">
 						<div class="panel-heading">
@@ -220,8 +223,7 @@
 							<ul class="timeline">
 								<li>
 									<!--deze stap in de timeline is afgerond-->
-									<div class="timeline-badge success"><i class="fa fa-check"></i>
-									</div>
+									<div class="timeline-badge warning"><i><img width="25px" height="25px" src="assats/img/apotheek.svg"/></i></div>
 									<div class="timeline-panel">
 										<div class="timeline-heading">
 											<h4 class="timeline-title">De huisarts</h4>
@@ -269,6 +271,9 @@
 									<div class="timeline-panel">
 										<div class="timeline-heading">
 											<h4 class="timeline-title">De eerste hulp</h4>
+											<p>
+												<small class="text-muted"><i class="fa fa-clock-o"></i> ~ 1 tot 2 uur</small>
+											</p>
 										</div>
 										<div class="timeline-body">
 											<p>
@@ -308,6 +313,9 @@
 									<div class="timeline-panel">
 										<div class="timeline-heading">
 											<h4 class="timeline-title">Röntgenfoto</h4>
+											<p>
+												<small class="text-muted"><i class="fa fa-clock-o"></i> ~ 1 tot 2 uur</small>
+											</p>
 										</div>
 										<div class="timeline-body">
 											<p>
@@ -351,9 +359,13 @@
 									</div>
 								</li>
 								<li class="timeline-inverted">
+									<div class="timeline-badge"><i><img width="25px" height="25px" src="assats/img/huisarts.svg"/></i></div>
 									<div class="timeline-panel">
 										<div class="timeline-heading">
 											<h4 class="timeline-title">Gipsen</h4>
+											<p>
+												<small class="text-muted"><i class="fa fa-clock-o"></i> ~ 1 tot 2 uur</small>
+											</p>
 										</div>
 										<div class="timeline-body">
 											<p>
@@ -418,8 +430,7 @@
 								<ul class="timeline">
 									<li>
 										<!--deze stap in de timeline is afgerond-->
-										<div class="timeline-badge success"><i class="fa fa-check"></i>
-										</div>
+										<div class="timeline-badge success"><i class="fa fa-check"></i></div>
 										<div class="timeline-panel">
 											<div class="timeline-heading">
 												<h4 class="timeline-title">De huisarts</h4>
@@ -462,11 +473,14 @@
 										</div>
 									</li>
 									<li class="timeline-inverted">
-										<div class="timeline-badge"><i><img width="25px" height="25px" src="assats/img/huisarts.svg"/></i></div>
+										<div class="timeline-badge success"><i class="fa fa-check"></i></div>
 										<!--<div class="timeline-badge warning"><i class="fa fa-credit-card"></i></div>-->
 										<div class="timeline-panel">
 											<div class="timeline-heading">
 												<h4 class="timeline-title">De eerste hulp</h4>
+												<p>
+													<small class="text-muted"><i class="fa fa-clock-o"></i> ~ 1 tot 2 uur</small>
+												</p>
 											</div>
 											<div class="timeline-body">
 												<p>
@@ -502,10 +516,13 @@
 										</div>
 									</li>
 									<li>
-										<div class="timeline-badge warning"><i><img width="25px" height="25px" src="assats/img/apotheek.svg"/></i></div>
+										<div class="timeline-badge success"><i class="fa fa-check"></i></div>
 										<div class="timeline-panel">
 											<div class="timeline-heading">
 												<h4 class="timeline-title">Röntgenfoto</h4>
+												<p>
+													<small class="text-muted"><i class="fa fa-clock-o"></i> ~ 1 tot 2 uur</small>
+												</p>
 											</div>
 											<div class="timeline-body">
 												<p>
@@ -549,9 +566,13 @@
 										</div>
 									</li>
 									<li class="timeline-inverted">
+										<div class="timeline-badge success"><i class="fa fa-check"></i></div>
 										<div class="timeline-panel">
 											<div class="timeline-heading">
 												<h4 class="timeline-title">Gipsen</h4>
+												<p>
+													<small class="text-muted"><i class="fa fa-clock-o"></i> ~ 1 tot 2 uur</small>
+												</p>
 											</div>
 											<div class="timeline-body">
 												<p>
@@ -602,34 +623,6 @@
 				</div>
 			</div>
 			<!--/.col-lg-18 tijdlijn-->
-			<div class="col-lg-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<i class="fa fa-star"></i> Uitgevoerd onderzoek
-					</div>
-					<div class="panel-body">
-						<div class="panel panel-info">
-							<div class="panel-heading">
-								<h2 class="panel-title">Doktersbezoek</h2>
-							</div>
-							<div class="panel-body">
-								<p>
-									<small class="text-muted">
-										<i class="fa fa-clock-o"></i> 12 mei 2017
-									</small>
-								</p>
-								<p>
-									Tijdens het bezoek van --naam van de patient-- is het volgende onderzoek uitgevoerd. de
-									patient gaf aan last te hebben van zijn been nadat hij van de trap was gevallen.
-									De patent kon niet staan op zijn been en het bij aanraking had hij
-									veel pijn. Mijn advische is om een rontgenfoto te laten maken.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/.col-lg-4 uitgevoerd onderzoek-->
 
 		</div>
 		<!-- /.row -->

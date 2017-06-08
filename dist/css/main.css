@@ -5,6 +5,8 @@
   margin: auto;
 }
 
+
+
 .info-text
 {
   text-align: left;
@@ -23,9 +25,24 @@
 }
 
 body{
-	background-image: url("../pages/assats/css/pages/assats/img/blue.jpg");
+   position: relative;
 }
-
 .panel-body{
 	background-color: #f8f8f8 !important;
 }
+
+.footer{
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  bottom: 0;
+}
+
+.copyright{
+  font-size: 12px;
+  color: white;
+  line-height: 4px;
+}
+

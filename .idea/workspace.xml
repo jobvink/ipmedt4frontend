@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce15f0b-6c52-444d-9da1-bf0e651ae961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/sb-admin-2.css" afterPath="$PROJECT_DIR$/dist/css/sb-admin-2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/dokterfront.html" afterPath="$PROJECT_DIR$/pages/dokterfront.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/homescherm.html" afterPath="$PROJECT_DIR$/pages/homescherm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.html" afterPath="$PROJECT_DIR$/pages/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/niewconsult.html" afterPath="$PROJECT_DIR$/pages/niewconsult.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/nieweafspraaklanding.html" afterPath="$PROJECT_DIR$/pages/nieweafspraaklanding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/patientdetail.html" afterPath="$PROJECT_DIR$/pages/patientdetail.html" />
     </list>
     <ignored path="startbootstrap-sb-admin-2-gh-pages.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +36,18 @@
       <file leaf-file-name="homescherm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/homescherm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="267" column="49" lean-forward="true" selection-start-line="267" selection-start-column="49" selection-end-line="267" selection-end-column="49" />
+            <state relative-caret-position="375">
+              <caret line="331" column="9" lean-forward="true" selection-start-line="328" selection-start-column="0" selection-end-line="331" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dokterfront.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/dokterfront.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="280" column="9" lean-forward="false" selection-start-line="280" selection-start-column="9" selection-end-line="280" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -42,8 +56,8 @@
       <file leaf-file-name="niewconsult.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/niewconsult.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="38" column="55" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="55" />
+            <state relative-caret-position="238">
+              <caret line="124" column="17" lean-forward="false" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -52,8 +66,18 @@
       <file leaf-file-name="nieweafspraaklanding.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/nieweafspraaklanding.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="178">
+              <caret line="279" column="9" lean-forward="false" selection-start-line="279" selection-start-column="9" selection-end-line="279" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patientdetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/patientdetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="699" column="0" lean-forward="true" selection-start-line="699" selection-start-column="0" selection-end-line="699" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,8 +86,18 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="179">
+              <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sb-admin-2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/css/sb-admin-2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3133">
+              <caret line="418" column="15" lean-forward="false" selection-start-line="418" selection-start-column="15" selection-end-line="418" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -72,8 +106,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="380">
+              <caret line="600" column="0" lean-forward="false" selection-start-line="600" selection-start-column="0" selection-end-line="603" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-340">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -83,6 +127,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>timeline-panel</find>
       <find>footer</find>
       <find>main.css</find>
     </findStrings>
@@ -93,7 +138,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/dist/css/sb-admin-2.css" />
+        <option value="$PROJECT_DIR$/pages/homescherm.html" />
+        <option value="$PROJECT_DIR$/pages/dokterfront.html" />
+        <option value="$PROJECT_DIR$/pages/index.html" />
         <option value="$PROJECT_DIR$/pages/niewconsult.html" />
+        <option value="$PROJECT_DIR$/pages/nieweafspraaklanding.html" />
+        <option value="$PROJECT_DIR$/pages/patientdetail.html" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
       </list>
     </option>
@@ -198,7 +249,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jobvink/Desktop/ipmedt4frontend/dist/css/main.css" />
+    <property name="SearchEverywhereHistoryKey" value="sb&#9;FILE&#9;file:///Users/jobvink/Desktop/ipmedt4frontend/dist/css/sb-admin-2.css" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,12 +336,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496913682139</updated>
       <workItem from="1496913683496" duration="13000" />
-      <workItem from="1497014308521" duration="1748000" />
+      <workItem from="1497014308521" duration="2840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1761000" />
+    <option name="totallyTimeSpent" value="2853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1932" height="1038" extended-state="0" />
@@ -334,42 +385,74 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/index.html">
+    <entry file="file://$PROJECT_DIR$/dist/css/sb-admin-2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="3133">
+          <caret line="418" column="15" lean-forward="false" selection-start-line="418" selection-start-column="15" selection-end-line="418" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/homescherm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="267" column="49" lean-forward="true" selection-start-line="267" selection-start-column="49" selection-end-line="267" selection-end-column="49" />
+        <state relative-caret-position="375">
+          <caret line="331" column="9" lean-forward="true" selection-start-line="328" selection-start-column="0" selection-end-line="331" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/nieweafspraaklanding.html">
+    <entry file="file://$PROJECT_DIR$/pages/dokterfront.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="280" column="9" lean-forward="false" selection-start-line="280" selection-start-column="9" selection-end-line="280" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="600" column="0" lean-forward="false" selection-start-line="600" selection-start-column="0" selection-end-line="603" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/niewconsult.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="55" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="55" />
+        <state relative-caret-position="238">
+          <caret line="124" column="17" lean-forward="false" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/nieweafspraaklanding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="279" column="9" lean-forward="false" selection-start-line="279" selection-start-column="9" selection-end-line="279" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/patientdetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="699" column="0" lean-forward="true" selection-start-line="699" selection-start-column="0" selection-end-line="699" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="179">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -11,6 +11,9 @@
 
 	<title>Index</title>
 
+	<!--main css custom style-->
+	<link href="../dist/css/main.css" rel="stylesheet">
+
 	<!-- Bootstrap Core CSS -->
 	<link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
@@ -25,9 +28,6 @@
 
 	<!-- Custom Fonts -->
 	<link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-	<!--main css custom style-->
-	<link href="../dist/css/main.css" rel="stylesheet">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -134,11 +134,11 @@
 
 								<li>
 									<div class="timeline-badge warning"><i><img width="25px" height="25px" src="assats/img/apotheek.svg"/></i></div>
-									<div class="timeline-panel">
+									<div class="timeline-panel afspraakKlaar">
 										<div class="timeline-heading">
-											<h4 class="timeline-title">De huisarts</h4>
+											<h4 class="timeline-title">Huisarts afspraak</h4>
 											<p>
-												<small class="text-muted"><i class="fa fa-clock-o"></i> 21-7-2017</small>
+												<small class="text-muted"><i class="fa fa-clock-o"></i> 21-7-2017 14:50</small>
 											</p>
 										</div>
 										<div class="timeline-body">
@@ -153,7 +153,7 @@
 										</div>
 										<div>
 											<br>
-											<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#huisarts1">Meer informatie</button>
+											<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#huisarts1">Informatie afspraak</button>
 										</div>
 									</div>
 									<!-- pop-up 1 met extra informatie over de huisarts -->
@@ -164,7 +164,7 @@
 												<div class="modal-header">
 													<!-- Kruis butten sluiten pop-up -->
 													<button type="button" class="close" data-dismiss="modal">&times;</button>
-													<h3 class="modal-title">De huisarts consult</h3>
+													<h3 class="modal-title">Huisarts consult</h3>
 												</div>
 												<div class="modal-body">
 													<p>
@@ -224,6 +224,56 @@
 										</div>
 									</div>
 								</li>
+
+								<li class="timeline-inverted">
+									<div class="timeline-badge"><i><img width="25px" height="25px" src="assats/img/huisarts.svg"/></i></div>
+									<div class="timeline-panel afspraakbezig">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Eerste hulp afspraak</h4>
+											<p>
+												<small class="text-muted"><i class="fa fa-clock-o"></i> 22-7-2017 10:20</small>
+											</p>
+										</div>
+										<div class="timeline-body">
+											<p>
+												Vervolgafspraak bij de huisarts voor controle been.
+											</p>
+											<p>
+												Vondellaan 35<br>
+												2332AA<br>
+												Leiden
+											</p>
+										</div>
+										<div>
+											<br>
+											<button type="button" class="btn btn-success test" data-toggle="modal" data-target="#eersteHulp1">Informatie afspraak</button>
+										</div>
+									</div>
+									<!-- pop-up 1 met extra informatie over de huisarts -->
+									<div id="eersteHulp1" class="modal fade" role="dialog">
+										<div class="modal-dialog">
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<!-- Kruis butten sluiten pop-up -->
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+													<h3 class="modal-title">Huisarts consult</h3>
+												</div>
+												<div class="modal-body">
+													<p>
+														Het herstel gaat goed. Aangeraden word om nog 2 weken rust te houden om het been volledig te laten herstellen.
+														Na deze 2 weken kan het been weer volledig gebruikt worden. Let op als het been pijn gaat doen stop met de activiteit.
+													</p>
+												</div>
+												<div class="modal-footer">
+													<!-- sluit butten sluiten pop-up -->
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Sluit</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+
 								<li>
 									<div class="timeline-badge warning"><i><img width="25px" height="25px" src="assats/img/apotheek.svg"/></i></div>
 									<div class="timeline-panel">

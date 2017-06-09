@@ -22,11 +22,11 @@
   background-color: #e8e8e8;
 }
 
-.panel-body{
+.panel-body {
 	background-color: #f8f8f8 !important;
 }
 
-.footer{
+.footer {
   background-color: #222222;
   color: white;
   text-align: center;
@@ -34,11 +34,44 @@
   padding-bottom: 15px;
 }
 
-.copyright{
+.copyright {
   font-size: 12px;
   color: white;
   line-height: 4px;
 }
 
+.begin_tijdlijn {
+
+  padding-bottom: 150px;
+}
+
+.timeline {
+  margin-top: 80px;
+}
+
+.begin_timeline {
+
+  top: -30px !important;
+
+}
+
+.einde_timeline {
 
 
+
+}
+
+.Begin-icon {
+  vertical-align: bottom !important;
+  line-height: 0px !important;
+  margin-top: 10px !important;
+
+}
+
+.bicon_list{
+  margin-top: 10px !important;
+}
+
+.hometimeline{
+  bottom: 10px !important;
+}
